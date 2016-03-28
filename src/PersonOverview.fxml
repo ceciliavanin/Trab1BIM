@@ -67,7 +67,7 @@
                            <children>
                               <HBox alignment="BOTTOM_RIGHT" nodeOrientation="RIGHT_TO_LEFT">
                                  <children>
-                                    <Button mnemonicParsing="false" text="New..." />
+                                    <Button fx:id="New" mnemonicParsing="false" onAction="#handleNewPerson" text="New..." />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -87,7 +87,7 @@
                                        <children>
                                           <HBox nodeOrientation="RIGHT_TO_LEFT">
                                              <children>
-                                                <Button mnemonicParsing="false" text="Edit..." />
+                                                <Button fx:id="Edit" mnemonicParsing="false" onAction="#handleEditPerson" text="Edit..." />
                                              </children>
                                           </HBox>
                                        </children>
@@ -102,7 +102,7 @@
                      <children>
                         <HBox nodeOrientation="RIGHT_TO_LEFT">
                            <children>
-                              <Button mnemonicParsing="false" text="Delete" />
+                              <Button mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" />
                            </children>
                         </HBox>
                      </children>
