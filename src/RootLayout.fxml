@@ -5,8 +5,7 @@
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<BorderPane styleClass="DarkTheme.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="RootLayoutController">
+<BorderPane styleClass="DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RootLayoutController">
    <center>
       <BorderPane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <top>
@@ -27,6 +26,11 @@
                     <MenuItem mnemonicParsing="false" text="About" />
                   </items>
                 </Menu>
+                  <Menu mnemonicParsing="false" text="Statics">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#handleShowBirthdayStatistics" text="Show Statistics" />
+                    </items>
+                  </Menu>
               </menus>
             </MenuBar>
          </top>
