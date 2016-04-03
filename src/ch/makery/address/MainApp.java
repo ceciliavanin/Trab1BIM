@@ -190,6 +190,7 @@ public class MainApp extends Application {
             e.printStackTrace();
             return false;
         }
+    }
         /**
          * Carrega os dados da pessoa do arquivo especificado. A pessoa atual
          * será substituída.
@@ -248,5 +249,3 @@ public class MainApp extends Application {
         }
     }
     
-
-}
